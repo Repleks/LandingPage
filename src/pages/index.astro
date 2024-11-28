@@ -1,0 +1,281 @@
+---
+import Layout from '../layouts/Default.astro'
+import Navbar from '../components/Navbar.astro'
+import NavbarClone from '../components/NavbarClone.astro'
+const title = 'Home'
+---
+
+<Layout title={title}>
+  <section class="hero is-fullheight is-grey">
+    <Navbar />
+
+    <NavbarClone />
+
+    <div class="hero-body">
+      <div class="container">
+        <div class="columns is-vcentered">
+          <div class="column is-5 landing-caption">
+            <h1 class="title is-1 is-bold is-spaced">CoolTask</h1>
+            <h2 class="subtitle is-5 is-muted">Twoje zadania, nasze rozwiązania!</h2>
+            <h3 class="subtitle is-6">CoolTask to nowoczesna platforma, która łączy użytkowników z ekspertami, gotowymi szybko i bezbłędnie rozwiązać każde zadanie – od szkolnych projektów po zaawansowane analizy.
+              Dzięki CoolTask możesz zaoszczędzić czas i skupić się na tym, co naprawdę ważne, zlecając nam najbardziej czasochłonne lub skomplikowane zadania.
+              Niezależnie od tego, czy potrzebujesz pomocy z matematycznym zadaniem domowym, napisaniem eseju czy projektem technicznym, CoolTask zawsze dostarczy rozwiązanie na najwyższym poziomie.</h3>
+            <div>
+              <!--<a class="button cta primary-btn raised mr-2"> Get Started </a>-->
+              <!--<a class="button cta"> Discover</a>-->
+            </div>
+          </div>
+          <div class="column is-7">
+            <img src="/img/illustrations/worker.svg" class="hero-image" alt="Description" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section is-medium">
+    <div class="container">
+      <div class="title-wrapper has-text-centered">
+        <h2 class="title is-2">Wielka moc to</h2>
+        <h3 class="subtitle is-5 is-muted">Wielka odpowiedzialność</h3>
+        <div class="divider is-centered"></div>
+      </div>
+
+      <div class="feature-cards content-wrapper">
+        <div class="columns">
+          <div class="column is-4">
+            <div class="feature-card is-bordered has-text-centered is-feature-reveal">
+              <div class="card-title">
+                <h4>Rozwiązywanie zadań</h4>
+              </div>
+              <div class="card-icon">
+                <img src="/img/icons/web.svg" />
+              </div>
+              <div class="card-text">
+                <p>Rozwiązywanie zadań w rekordowym czasie</p>
+              </div>
+              <div class="card-action">
+                <a href="#" class="button btn-align-md primary-btn raised">Uzyskaj zniżkę</a>
+              </div>
+            </div>
+          </div>
+          <div class="column is-4">
+            <div class="feature-card is-bordered has-text-centered is-feature-reveal">
+              <div class="card-title">
+                <h4>Integracja z chmurą</h4>
+              </div>
+              <div class="card-icon">
+                <img src="/img/icons/rocket.svg" />
+              </div>
+              <div class="card-text">
+                <p>Twoje zadania, dostępne zawsze i wszędzie</p>
+              </div>
+              <div class="card-action">
+                <a href="#" class="button btn-align-md primary-btn raised">Zacznij teraz</a>
+              </div>
+            </div>
+          </div>
+          <div class="column is-4">
+            <div class="feature-card is-bordered has-text-centered is-feature-reveal">
+              <div class="card-title">
+                <h4>Nasze narzędzia</h4>
+              </div>
+              <div class="card-icon">
+                <img src="/img/icons/light-bulb.svg" />
+              </div>
+              <div class="card-text">
+                <p>Rozszerz możliwości z naszymi narzędziami</p>
+              </div>
+              <div class="card-action">
+                <a href="#" class="button btn-align-md primary-btn raised">Sprawdź tutaj</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section is-medium section-feature-grey">
+    <div class="container">
+      <div class="title-wrapper has-text-centered">
+        <h2 class="title is-2">Niesamowite funkcje</h2>
+        <h3 class="subtitle is-5 is-muted">Sprawią, że pokochasz CoolTask</h3>
+        <div class="divider is-centered"></div>
+      </div>
+
+      <div class="columns is-vcentered side-feature mt-60">
+        <div class="column is-4 is-offset-2">
+          <h3 class="title is-3 mb-10 is-title-reveal">Łącz się z ekspertami</h3>
+          <p class="subtitle is-5 is-muted">
+            Zlecaj zadania i współpracuj z naszymi ekspertami z dowolnego miejsca w Polsce.
+          </p>
+        </div>
+        <div class="column is-5">
+          <img src="/img/illustrations/features/feature-1.png" alt="" />
+        </div>
+      </div>
+
+      <div class="columns is-vcentered side-feature mt-60">
+        <div class="column is-5 is-offset-1">
+          <img src="/img/illustrations/features/feature-2.png" alt="" />
+        </div>
+        <div class="column is-4 is-offset-1">
+          <h3 class="title is-3 mb-10 is-title-reveal">Współpraca bez wysiłku</h3>
+          <p class="subtitle is-5 is-muted">
+            Praca nad projektami nigdy nie była tak prosta – CoolTask zrobi to za Ciebie!
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-feature-grey is-medium">
+    <div class="container">
+      <div class="columns is-vcentered app-side">
+        <div class="column is-4 is-offset-1">
+          <h3 class="title is-3 is-spaced is-title-reveal">Intuicyjna aplikacja</h3>
+          <p class="subtitle is-5 is-muted">
+            Zaprojektowana tak, aby maksymalnie ułatwić proces zlecania i śledzenia realizacji Twoich projektów.
+          </p>
+        </div>
+        <div class="column is-7">
+          <div class="has-text-centered">
+            <img class="side-image" src="/img/illustrations/workers.svg" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section is-medium has-background-image" data-background="https://source.unsplash.com/g30P1zcOzXo/1600x900" data-color="#4FC1EA" data-color-opacity=".6">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="title-wrapper has-text-centered">
+        <h2 class="title is-2 light-text is-spaced">Nasi klienci nas uwielbiają</h2>
+        <h3 class="subtitle is-5 light-text">Przeczytaj, co o nas mówią</h3>
+      </div>
+
+      <div class="testimonials content-wrapper">
+        <div class="columns is-vcentered">
+          <div class="column is-4">
+            <figure class="testimonial">
+              <blockquote>
+                CoolTask to najlepsza platforma! Moje zadanie było gotowe szybciej, niż się spodziewałem, a wynik był bezbłędny!
+              </blockquote>
+              <div class="author">
+                <img src="/img/illustrations/faces/1.png" alt="" />
+                <div>
+                  <h5>Marta</h5>
+                  <span>Studenka informatyki</span>
+                </div>
+              </div>
+            </figure>
+          </div>
+          <div class="column is-4">
+            <figure class="testimonial">
+              <blockquote>
+                Jakaś opinia
+              </blockquote>
+              <div class="author">
+                <img src="/img/illustrations/faces/2.png" alt="" />
+                <div>
+                  <h5>Ktoś</h5>
+                  <span>Jakaś rola</span>
+                </div>
+              </div>
+            </figure>
+          </div>
+          <div class="column is-4">
+            <figure class="testimonial">
+              <blockquote>
+                Jakaś opinia
+              </blockquote>
+              <div class="author">
+                <img src="/img/illustrations/faces/3.png" alt="" />
+                <div>
+                  <h5>Ktoś</h5>
+                  <span>Jakaś rola</span>
+                </div>
+              </div>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--<section class="section section-light-grey is-medium">-->
+  <!--  <div class="container">-->
+  <!--    <div class="title-wrapper has-text-centered">-->
+  <!--      <h2 class="title is-2 is-spaced">Drop us a line or two</h2>-->
+  <!--      <h3 class="subtitle is-5 is-muted">We'd love to hear from You</h3>-->
+  <!--      <div class="divider is-centered"></div>-->
+  <!--    </div>-->
+
+  <!--    <div class="content-wrapper">-->
+  <!--      <div class="columns">-->
+  <!--        <div class="column is-6 is-offset-3">-->
+  <!--          <form>-->
+  <!--            <div class="columns is-multiline">-->
+  <!--              <div class="column is-6">-->
+  <!--                <input class="input is-medium" type="text" placeholder="First Name *" />-->
+  <!--              </div>-->
+  <!--              <div class="column is-6">-->
+  <!--                <input class="input is-medium" type="text" placeholder="Last Name *" />-->
+  <!--              </div>-->
+  <!--              <div class="column is-6">-->
+  <!--                <input class="input is-medium" type="text" placeholder="Email *" />-->
+  <!--              </div>-->
+  <!--              <div class="column is-6">-->
+  <!--                <input class="input is-medium" type="email" placeholder="Company" />-->
+  <!--              </div>-->
+  <!--              <div class="column is-12">-->
+  <!--                <textarea class="textarea" rows="6" placeholder=""></textarea>-->
+  <!--              </div>-->
+  <!--              <div class="column is-12">-->
+  <!--                <div class="form-footer has-text-right mt-10">-->
+  <!--                  <button class="button cta is-large primary-btn form-button raised is-clear">Send Message</button>-->
+  <!--                </div>-->
+  <!--              </div>-->
+  <!--            </div>-->
+  <!--          </form>-->
+  <!--        </div>-->
+  <!--      </div>-->
+  <!--    </div>-->
+  <!--  </div>-->
+  <!--</section>-->
+
+  <div id="auth-modal" class="modal">
+    <div class="modal-background modal-dismiss"></div>
+    <div class="modal-content">
+      <div class="flex-card auth-card">
+        <div class="tabs-wrapper">
+          <div class="tabs">
+            <ul>
+              <li class="is-active" data-tab="login-tab"><a>Login</a></li>
+              <li data-tab="register-tab"><a>Register</a></li>
+            </ul>
+          </div>
+          <div id="login-tab" class="tab-content is-active">
+            <div class="field">
+              <label>Username</label>
+              <div class="control">
+                <input type="text" class="input is-medium" placeholder="Enter username" />
+              </div>
+            </div>
+            <div class="field">
+              <label>Password</label>
+              <div class="control">
+                <input type="password" class="input is-medium" placeholder="Enter password" />
+              </div>
+            </div>
+
+            <a class="button is-fullwidth secondary-btn is-rounded raised">Log in</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="modal-close is-large modal-dismiss" aria-label="close"></button>
+  </div>
+</Layout>
